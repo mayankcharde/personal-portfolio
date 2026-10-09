@@ -117,6 +117,36 @@ export const portfolioData = {
     },
     {
       id: 2,
+      title: "NexusIQ – Enterprise IT Support AI Copilot",
+      codename: "NEXUSIQ_AGENTIC_RAG",
+      category: "Generative AI",
+      description:
+        "Enterprise-focused AI-powered IT Support platform built using Agentic RAG and LangGraph. Features role-based access control where admins manage organizational knowledge (PDF, DOCX, TXT, Markdown) stored in Pinecone, and employees access it through an intelligent AI assistant. Uses LangGraph to route queries across private knowledge, web search, and direct responses with guardrails, prompt-injection protection, and evidence grading to reduce hallucinations.",
+      techStack: ["LangGraph", "FastAPI", "Python", "Groq", "Gemini Embeddings", "Pinecone", "Tavily", "Node.js", "Express.js", "MongoDB", "SQLite", "JWT", "HTML", "CSS", "JavaScript"],
+      imageUrl:
+        "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?q=80&w=1000&auto=format&fit=crop",
+      liveUrl: "https://enterprise-agent-97fq.onrender.com/",
+      repoUrl: "https://github.com/mayankcharde/Enterprise-agent",
+      status: "LIVE",
+      featured: true,
+    },
+    {
+      id: 3,
+      title: "TripMate – AI-Powered Travel Planning Workspace",
+      codename: "TRIPMATE_AGENTIC_TRAVEL",
+      category: "Generative AI",
+      description:
+        "AI travel-planning application built using LangGraph, Multi-Agent AI, MCP, LangSmith, Guardrails, and Human-in-the-Loop workflows. Transforms a natural-language travel request into a researched, personalized, and reviewable itinerary. A LangGraph supervisor dynamically coordinates specialized agents for flights, hotels, weather, budget, and itinerary planning. MCP creates a standardized modular layer between AI agents and external services. AI Guardrails validate requests and block irrelevant or harmful content. Human-in-the-Loop pauses after draft generation for user review and approval before producing the final plan. Persistent agent state via LangGraph checkpoints with PostgreSQL allows paused workflows to resume using the same thread_id. LangSmith provides full observability — tracing LLM calls, agent execution, tool usage, latency, and errors.",
+      techStack: ["LangGraph", "FastAPI", "Python", "MCP", "LangSmith", "React", "Vite", "Node.js", "Express.js", "JWT", "MongoDB", "PostgreSQL"],
+      imageUrl:
+        "https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=1000&auto=format&fit=crop",
+      liveUrl: "https://tripmat.netlify.app/",
+      repoUrl: "https://github.com/mayankcharde/tripmate",
+      status: "LIVE",
+      featured: true,
+    },
+    {
+      id: 4,
       title: "Literai – Multi-Agent AI Research Assistant",
       codename: "MULTI_AGENT_RESEARCH",
       category: "Generative AI",
@@ -131,7 +161,7 @@ export const portfolioData = {
       featured: true,
     },
     {
-      id: 3,
+      id: 5,
       title: "IntelliBlog – Multi-Agent AI Blog Writing System",
       codename: "BLOG_ORCHESTRATOR",
       category: "Generative AI",
@@ -146,7 +176,7 @@ export const portfolioData = {
       featured: true,
     },
     {
-      id: 4,
+      id: 6,
       title: "FoundIt – QR-Enabled Lost & Found Platform",
       codename: "QR_LOST_FOUND",
       category: "Full Stack",
@@ -161,7 +191,7 @@ export const portfolioData = {
       featured: true,
     },
     {
-      id: 5,
+      id: 7,
       title: "Gen AI Job Prep Platform",
       codename: "AI_JOB_PREP",
       category: "Artificial Intelligence",
@@ -176,7 +206,7 @@ export const portfolioData = {
       featured: false,
     },
     {
-      id: 6,
+      id: 8,
       title: "DeepSeek AI Clone",
       codename: "AI_MULTIMODAL_OS",
       category: "Artificial Intelligence",
@@ -191,7 +221,7 @@ export const portfolioData = {
       featured: true,
     },
     {
-      id: 7,
+      id: 9,
       title: "E Store - Modern E-Commerce",
       codename: "ECOMMERCE_PLATFORM",
       category: "Full Stack",
@@ -206,7 +236,7 @@ export const portfolioData = {
       featured: true,
     },
     {
-      id: 8,
+      id: 10,
       title: "MovieGenie - ML Suggestion",
       codename: "ML_RECOMMENDER",
       category: "Artificial Intelligence",
@@ -221,7 +251,7 @@ export const portfolioData = {
       featured: false,
     },
     {
-      id: 9,
+      id: 11,
       title: "Spotify Cloud Clone",
       codename: "MUSIC_STREAM_UI",
       category: "Full Stack",
@@ -236,7 +266,7 @@ export const portfolioData = {
       featured: false,
     },
     {
-      id: 10,
+      id: 12,
       title: "Code Reviewer",
       codename: "AI_CODE_REVIEW",
       category: "Artificial Intelligence",
@@ -251,7 +281,7 @@ export const portfolioData = {
       featured: false,
     },
     {
-      id: 11,
+      id: 13,
       title: "House Price Prediction",
       codename: "ML_HOUSE_PRICE",
       category: "Artificial Intelligence",
@@ -266,7 +296,7 @@ export const portfolioData = {
       featured: false,
     },
     {
-      id: 12,
+      id: 14,
       title: "GTA 6 Website",
       codename: "GTA6_LANDING",
       category: "Frontend/UI",
@@ -281,7 +311,7 @@ export const portfolioData = {
       featured: false,
     },
     {
-      id: 13,
+      id: 15,
       title: "Weather App",
       codename: "WEATHER_INTERFACE",
       category: "Web Development",
@@ -296,7 +326,7 @@ export const portfolioData = {
       featured: false,
     },
     {
-      id: 14,
+      id: 16,
       title: "DermSight – AI Skin Health System",
       codename: "DERMSIGHT_AI",
       category: "Artificial Intelligence",
@@ -310,7 +340,7 @@ export const portfolioData = {
       featured: false,
     },
     {
-      id: 15,
+      id: 17,
       title: "Fire & Smoke Detection System",
       codename: "FIRE_DETECTION",
       category: "Artificial Intelligence",
